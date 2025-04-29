@@ -11,7 +11,7 @@
 <header>
   <img src="https://i.imgur.com/nzXo5KK.png" alt="Logo Lyw" />
   <h1>Comercializadora Lyw</h1>
-  <p>verduras y productos naturales de calidad</p>
+  <p>Frutas, verduras y productos naturales de calidad</p>
 </header>
 
 <nav>
@@ -30,7 +30,7 @@
 
 <section id="nosotros">
   <h2>¿Quiénes somos?</h2>
-  <p>Somos una comercializadora de verduras y productos naturales. Nos enorgullece trabajar con agricultores locales para promover un consumo responsable y sostenible.</p>
+  <p>Somos una comercializadora de frutas, verduras y productos naturales. Nos enorgullece trabajar con agricultores locales para promover un consumo responsable y sostenible.</p>
 </section>
 
 <section id="productos" class="productos">
@@ -40,6 +40,7 @@
     <img src="https://i.imgur.com/yxOcdmT.jpg" alt="Manzanas" />
     <img src="https://i.imgur.com/Yo1Uv2r.jpg" alt="Zanahorias" />
     <img src="https://i.imgur.com/WbR97Rj.jpg" alt="Tomates" />
+    <img src="https://i.imgur.com/G0GhZRx.jpg" alt="Bananas" />
   </div>
 </section>
 
@@ -63,16 +64,19 @@
 
 <section id="pedidos">
   <h2>Realiza tu pedido</h2>
-  <form class="formulario">
+  <form class="formulario" action="https://formsubmit.co/ComercializadoraLyW@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://gracias.comercializadoralyw.com">
+
     <label>Nombre:</label>
-    <input type="text" required />
-    
+    <input type="text" name="nombre" required />
+
     <label>Correo electrónico:</label>
-    <input type="email" required />
-    
+    <input type="email" name="email" required />
+
     <label>Mensaje o pedido:</label>
-    <textarea rows="5" required></textarea>
-    
+    <textarea name="mensaje" rows="5" required></textarea>
+
     <button type="submit">Enviar Pedido</button>
   </form>
 </section>
