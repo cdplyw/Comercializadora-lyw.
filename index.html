@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comercializadora Lyw</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/nzXo5KK.png" alt="Logo Lyw" />
+  <h1>Comercializadora Lyw</h1>
+  <p>Frutas, verduras y productos naturales de calidad</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#productos">Productos</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#pedidos">Pedidos</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos</h2>
+  <p>Ofrecemos frutas y verduras frescas a Heredia y Alajuela. Entrega rápida y calidad garantizada.</p>
+</section>
+
+<section id="nosotros">
+  <h2>Sobre nosotros</h2>
+  <p>Apoyamos agricultores locales y distribuimos productos frescos directamente del campo a tu hogar.</p>
+</section>
+
+<section id="productos" class="productos">
+  <h2>Productos</h2>
+  <div>
+    <img src="https://i.imgur.com/yxOcdmT.jpg" alt="Manzanas" />
+    <img src="https://i.imgur.com/Yo1Uv2r.jpg" alt="Zanahorias" />
+    <img src="https://i.imgur.com/WbR97Rj.jpg" alt="Tomates" />
+  </div>
+</section>
+
+<section id="galeria" class="galeria">
+  <h2>Galería</h2>
+  <img src="https://i.imgur.com/Iztvop2.jpg" alt="Verduras frescas" />
+  <img src="https://i.imgur.com/kTwg1Q2.jpg" alt="Campo agrícola" />
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p><strong>Ubicación:</strong> Heredia y Alajuela, Costa Rica</p>
+  <p><strong>Email:</strong> comercializadoralyw@gmail.com</p>
+</section>
+
+<section id="pedidos">
+  <h2>Haz tu pedido</h2>
+  <form action="https://formsubmit.co/ComercializadoraLyW@gmail.com" method="POST" class="formulario">
+    <input type="hidden" name="_captcha" value="false">
+        <label>Nombre:</label>
+    <input type="text" name="nombre" required />
+    <label>Correo:</label>
+    <input type="email" name="email" required />
+    <label>Pedido:</label>
+    <textarea name="mensaje" rows="4" required></textarea>
+    <button type="submit">Enviar Pedido</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Comercializadora Lyw</p>
+</footer>
+
+</body>
+</html>
