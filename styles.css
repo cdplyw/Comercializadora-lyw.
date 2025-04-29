@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa; /* Fondo suave verde claro */
+  color: #2e7d32; /* Color de texto en verde */
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  background-color: #388e3c;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+  background-image: url('imagenes/arbol.png'); /* Imagen de árbol de fondo */
+  background-size: cover;
+  transition: background-image 2s ease-in-out;
+}
+
+header:hover {
+  background-image: url('imagenes/campo.png'); /* Imagen de campo */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  color: #388e3c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: #2e7d32;
+  transform: scale(1.05);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e7d32;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
